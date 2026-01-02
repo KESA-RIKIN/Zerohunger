@@ -5,13 +5,13 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyALPymnrN-i4QYX5hLqFKeBv1OaHvJPWp8",
-    authDomain: "movie-4d2da.firebaseapp.com",
-    projectId: "movie-4d2da",
-    storageBucket: "movie-4d2da.firebasestorage.app",
-    messagingSenderId: "72118162880",
-    appId: "1:72118162880:web:dcb194aa65f6380d2b2425",
-    measurementId: "G-ZGJB041JGP"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: "",
 };
 
 // Initialize Firebase
@@ -25,3 +25,4 @@ if (typeof window !== 'undefined') {
 }
 
 export { app, analytics, auth };
+
